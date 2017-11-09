@@ -1,0 +1,142 @@
+		.topLeft { position:absolute;		top:0px; 	left:0px;}    
+		.topRight { position:absolute;		top:10px; 	right:10px;} 
+		.topCentre { position:absolute;		top:10px; 	left: 35%;} 	
+		.centre { position:absolute; 		top:25%; 	left: 35%;}
+		.centreLeft { position:absolute; 	top:25%; 	left: 10px;}	
+		.centreRight { position:absolute; 	top:25%; 	right: 10px;}
+		.bottomLeft { position:absolute;	bottom:10px; left:10px;} 
+		.bottomRight { position:absolute;	bottom:10px; right:10px;}
+		.bottomCentre { position:absolute;	bottom:10px; left:35%;} 	
+	
+		.fixBottomLeft { position:fixed; left:0; bottom:0;}		
+		.fixBottomRight { position:fixed; right:0; bottom:0; }		
+		.fixTopLeft { position:fixed;	left:0;	top:0;	}
+		.fixTopRight {	position:fixed;	right:0; top:0;	}	
+		.fixCenter {	position:fixed;	right:35%; top:50%;	}
+		.flotLeft { float:left; }	
+		.flotRight { float:right; }
+		
+		.relD1 { position:relative; top:30px; }		
+
+		.alignL { position:absolute; left:10px; }			
+		.alignR { position:absolute; right:10px; }
+		.alignR2 { position:absolute; right:15%; }
+		.alignR3 { position:absolute; left:30%; }
+		
+		.border1 { border: 1px ridge cyan; box-shadow: 5px 5px 3px #588888;	border-radius: .5em; }
+		.border2 { border: 2px ridge cyan; box-shadow: 5px 5px 10px #eef888; border-radius: .5em; }
+		
+		.box1 { margin: -4px 6px 2px 2px; padding: 1px 1px 1px 1px; font: 100%  arial, sans-serif; }
+		.box2 { margin: 2px 2px 2px 2px; padding: 1px 1px 1px 1px; font: 120%  verdana, sans-serif; }		
+		.box3 { margin: 3px 2px 3px 2px; padding: 2px 1px 2px 1px; font: 150%  Times, verdana, sans-serif; }	
+		
+		.size1 { min-width:20% ;} /* max-height:20%; }*/
+		.size2 { width:25%; height:25%; }	
+		.size2a { width:25%; height:55%; }			
+		.size3 { width:30%; height:60%; }	
+		.size3a { width:35%; height:75%; }		
+		.size4 { width:80%; height:100%; }
+		.sizeFits { max-width: 90%; max-height:90% }		
+		.sizeBandeau1 { width:40%; height:10%; }		
+		.sizeBandeau2 { width:30%; height:7%; }			
+
+		.typo1 {
+			color:navy;
+			font-weight:bold;
+			font-family:verdana;
+		}
+		.typo2 {
+			color:black;
+			font-weight: bold;
+			font-family:georgia;
+		}	
+		.typoSmall {
+			color:black;
+			font-size:90%;
+			font-weight:bold;			
+			font-family:georgia;
+		}
+		.centre {
+			position:relative;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.centrage {text-align: center;}		
+		.centrageL {text-align: left;}
+		.overAuto { overflow: auto;}
+		.overScroll { overflow: scroll;}	
+		.overHidden { overflow: hidden;}		
+		
+		.bg1 {background-color:cyan;color:DarkBlue; background: linear-gradient(cyan, darkcyan);}
+		.bg2 {background-color:linen;color:Blue}
+		.bg3 {background-color:navy; color:DarkOrange}	
+		.bg4 { background-color : lightSkyBlue; color: navy;}
+		.bg5 { background-color : lightseagreen; color: black;}
+		.bg6 { background-color: #9aa; color: navy;}
+		.bg7 { background-color: rgba(32,178,170, .7); color: black;}			
+		.navy {color:navy}
+		.chartreuse {color:chartreuse}
+
+		label {
+		    /* To make sure that all label have the same size and are properly align */
+		    display: inline-block;
+		    width: 90px;
+		    text-align: right;
+		    box-sizing: border-box;
+		}
+		.ulmenu {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		}
+		
+		.p1 {
+		  font-family: 'helvetica neue', helvetica, sans-serif;
+		  letter-spacing: 1px;
+		  text-transform: uppercase;
+		  text-align: center;
+		  border: 2px solid rgba(0,0,200,0.6);
+		  background: rgba(0,0,200,0.3);
+		  color: rgba(0,0,200,0.6);
+		  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+		  border-radius: 10px;
+		  padding: 3px 10px;
+		  display: inline-block;
+		  cursor:pointer;
+		}
+		
+		iframe {
+			width: 99%;
+			height : 99%;
+			border : none;
+			overflow:hidden;
+		}	
+		.onOff {
+			visibility : hidden;
+			transition: visibility 1s;
+		}
+		#onOff { display : none;}
+		#onOff:checked ~ .onOff, #onOff:checked ~ div, #onOff:checked ~ * .onOff {
+		    visibility: visible;
+		}
+		.btn {
+			position : relative ; top : 7px; 
+		    margin: 0 3px;
+		    font: 12px "Lucida Grande", sans-serif;
+		    text-shadow: rgba(255, 255, 255, 0.4) 0 1px;
+		    padding: 3px 6px;
+		    border: 1px solid rgba(0, 0, 0, 0.6);
+		    background-color: LightSteelBlue;
+		    border-radius: 3px;
+		    box-shadow: rgba(255, 255, 255, 0.4) 0 1px, inset 0 20px 20px -10px white;
+		    text-align : center;
+		}
+
+		
+	
+		
+			
+	
+	
+	 		

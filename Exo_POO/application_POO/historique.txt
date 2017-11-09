@@ -1,0 +1,16 @@
+jeudi 21 septembre 2017, 10:49:37 (UTC+0200)
+ 270 application.cpp
+  11 main.cpp
+ 114 Person.cpp
+  35 application.h
+  56 Person.h
+ 486 total
+jeudi 28 septembre 2017, 10:25:37 (UTC+0200)
+ 122 application.cpp
+   7 main.cpp
+  60 Person.cpp
+  19 application.h
+  30 Person.h
+ 238 total
+18 méthodes.
+2 classes.
